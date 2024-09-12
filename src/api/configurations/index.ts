@@ -16,8 +16,8 @@ const config = (): Config => {
 			secrets: {
 				apiHost:
 					environment === "development"
-						? "http://localhost:3000"
-						: "http://localhost:3000"
+						? "https://royal-spring-schools-backend.onrender.com/"
+						: "https://royal-spring-schools-backend.onrender.com/"
 			},
 		});
 	}
@@ -26,5 +26,5 @@ const config = (): Config => {
 
 export default config;
 
-//https://royal-spring-backend.onrender.com/
+//https://royal-spring-schools-backend.onrender.com/
 //http://localhost:3000
