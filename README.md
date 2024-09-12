@@ -1,27 +1,15 @@
-# React + TypeScript + Vite
+# School Portal - Student Records & Course Management
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+This project is a comprehensive school portal designed to manage student records efficiently. It allows schools to store, access, and update student information, as well as organize and track courses for each semester.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Key Features:
+Student Records Management: Easily create, update, and manage detailed student profiles, including personal information, academic history, and performance.
 
-## Expanding the ESLint configuration
+Course Management: Assign and track courses for each semester, providing a seamless system for administrators to monitor and update student enrollment.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+User-Friendly Interface: Designed with simplicity in mind, allowing administrators, teachers, and students to navigate and manage data easily.
 
-- Configure the top-level `parserOptions` property like this:
+Scalable Solution: Built to support institutions of any size, with the ability to scale as your school or organization grows.
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+This project aims to streamline the process of managing student records and courses, making academic administration more efficient and organized.
