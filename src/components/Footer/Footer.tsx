@@ -18,7 +18,7 @@ export const Footer: React.FC = () => {
 </div>
 <div className="bg-[#F2F4F7] w-11/12 md:w-97% h-0.5"></div>
 <div className="text-white mt-0 font-inter text-sm md:text-base font-light flex justify-between w-11/12 md:w-80%">
-  <div className="font-inter text-sm md:text-base font-light">© 2023 Royal Spring College. All rights reserved</div>
+  <div className="font-inter text-sm md:text-base font-light">© 2024 Royal Spring College. All rights reserved</div>
   <div className="gap-2 md:gap-6 h-6 flex justify-between">
     <a href=""><img src={instagram} alt="Instagram" className="h-full" /></a>
     <a href=""><img src={twitter} alt="Twitter" className="h-full" /></a>
